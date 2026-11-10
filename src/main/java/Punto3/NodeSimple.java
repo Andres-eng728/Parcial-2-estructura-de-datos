@@ -1,0 +1,25 @@
+package Punto3;
+
+public class NodeSimple<T> {
+    private T data;
+    private NodeSimple next;
+
+    public NodeSimple(T data){
+        this.data=data;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public NodeSimple<T> getNext(){
+        return next;
+    }
+    public void setNext(NodeSimple<T> next) {
+        this.next = next;
+    }
+}
